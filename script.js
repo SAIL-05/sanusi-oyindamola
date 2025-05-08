@@ -190,20 +190,21 @@ console.log(200);
 //  write a program that calculates the body max index (BMI) and categorizes it. The formular for BMI is:
 //  weight / (height * height) where weight is in kg and height is in meters. The categories are as follows:
 //  underweight (BMI < 18.5), normal weight (BMI 18.5 - 24.9), overweight (BMI 25 - 29.9), and obesity (BMI >= 30).
-
-// let bmi = parseInt(prompt("enter bmi here "));
-// if(bmi < 18.5){
-//     alert(`you are ${bmi} and underweight `);
-// } else if(bmi >= 18.5 && bmi < 24.9){
-//     alert(`you are ${bmi} a normal weight`);
-// } else if(bmi > 25 && bmi < 29.9){
-//     alert(`you are ${bmi} and over weight`);
-// }else if(bmi >= 30){
-//     alert(`you are ${bmi} and obessed`);
-// }
-// else{
-//     alert("invalid");
-// }
+const weight = parseFloat(prompt("enter weight here "));
+const height = parseFloat(prompt("enter height here "));
+let bmi = (weight / (height * height));
+if(bmi < 18.5){
+    alert(`you are ${bmi} and underweight `);
+} else if(bmi >= 18.5 && bmi < 24.9){
+    alert(`you are ${bmi} a normal weight`);
+} else if(bmi > 25 && bmi < 29.9){
+    alert(`you are ${bmi} and over weight`);
+}else if(bmi >= 30){
+    alert(`you are ${bmi} and obessed`);
+}
+else{
+    alert("invalid");
+}
 
 
 
@@ -212,6 +213,9 @@ console.log(200);
 //     alert(`${number} is a positive number`);
 // } else if(number < 0){
 //     alert(`${number} is a negative number`);
-// }else{
+// }else if(number >= 0 +" "+ (isNaN(number))){
+//     alert(`${number} is an invalid pair`);
+// }
+// else{
 //     alert("invalid");
 // }
