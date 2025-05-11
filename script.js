@@ -190,21 +190,21 @@ console.log(200);
 //  write a program that calculates the body max index (BMI) and categorizes it. The formular for BMI is:
 //  weight / (height * height) where weight is in kg and height is in meters. The categories are as follows:
 //  underweight (BMI < 18.5), normal weight (BMI 18.5 - 24.9), overweight (BMI 25 - 29.9), and obesity (BMI >= 30).
-const weight = parseFloat(prompt("enter weight here "));
-const height = parseFloat(prompt("enter height here "));
-let bmi = (weight / (height * height));
-if(bmi < 18.5){
-    alert(`you are ${bmi} and underweight `);
-} else if(bmi >= 18.5 && bmi < 24.9){
-    alert(`you are ${bmi} a normal weight`);
-} else if(bmi > 25 && bmi < 29.9){
-    alert(`you are ${bmi} and over weight`);
-}else if(bmi >= 30){
-    alert(`you are ${bmi} and obessed`);
-}
-else{
-    alert("invalid");
-}
+// const weight = parseFloat(prompt("enter weight here "));
+// const height = parseFloat(prompt("enter height here "));
+// let bmi = (weight / (height * height));
+// if(bmi < 18.5){
+//     alert(`you are ${bmi} and underweight `);
+// } else if(bmi >= 18.5 && bmi < 24.9){
+//     alert(`you are ${bmi} a normal weight`);
+// } else if(bmi > 25 && bmi < 29.9){
+//     alert(`you are ${bmi} and over weight`);
+// }else if(bmi >= 30){
+//     alert(`you are ${bmi} and obessed`);
+// }
+// else{
+//     alert("invalid");
+// }
 
 
 
@@ -219,3 +219,58 @@ else{
 // else{
 //     alert("invalid");
 // }
+
+//write a program that calculates the ticket price based on the 
+// age with the following conditions: age below 12 pay a 
+// ticket price of 5,agebelow 18 pay a ticket price of 10, age 
+//below 60 pay a ticket price of 20,age over 60,pay a ticket price
+// of 15.
+
+// let age = parseInt(prompt("Enter Age"))
+// if(age > 0 && age <= 12){
+//     alert("pay a ticket price of $5");
+// } else if(age > 12 && age <= 18){
+//     alert("Pay a ticket price of $10");
+// } else if(age > 18 && age <= 60){
+//     alert("Pay a ticket price of &20");
+// }else if(age >= 60 && age <= 120){
+//     alert("Pay a ticket price of $15");
+// }    
+// else{
+//     alert("invalid");
+// }
+
+
+//write a program that determines if a year is a leap year
+
+//write a program that calculates a discount based on the 
+// purchase amount. price equals or over 100 discount have a
+//discount of 20, price equals or over 50 have a discount 
+// of 10, otherwise discount 0
+
+//write a program that greets the user based on the time of 
+// the day. display good morning, good afternoon or 
+// good evening based on the time of the day when yourun 
+// the code.
+
+
+
+//write a simple number guessing game. provide a secret 
+// number and a guess. based on those numbers, give players
+// clue if their guess is higher, lower or correct.
+
+
+
+const secretNumber = Math.floor(Math.random() * 8) + 1; // random number between 1 and 10
+const guess = Number(prompt("Guess the secret number between 1 and 10:"));
+console.log(secretNumber);
+
+if (guess === secretNumber) {
+  alert("Correct! You guessed the secret number.");
+} else if (guess < secretNumber) {
+  alert("Too low! Try a higher number.");
+} else if (guess > secretNumber) {
+  alert("Too high! Try a lower number.");
+} else {
+  alert("Invalid input! Please enter a number.");
+}
