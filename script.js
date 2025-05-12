@@ -253,6 +253,13 @@ console.log(200);
 // good evening based on the time of the day when yourun 
 // the code.
 
+let time = prompt("Enter time in 24hrs format")
+if(time > 0.00 && time <= 12){
+    alert("Good morning amigo");
+}else if(time > 12 && time <= 16){
+    alert("Good afternoon amigo");
+}
+
 
 
 //write a simple number guessing game. provide a secret 
@@ -261,16 +268,52 @@ console.log(200);
 
 
 
-const secretNumber = Math.floor(Math.random() * 8) + 1; // random number between 1 and 10
-const guess = Number(prompt("Guess the secret number between 1 and 10:"));
-console.log(secretNumber);
+// math.random
+// const secretNumber = Math.floor(Math.random() * 8) + 1; // random number between 1 and 10
+// const guess = Number(prompt("Guess the secret number between 1 and 10:"));
+// console.log(secretNumber);
 
-if (guess === secretNumber) {
-  alert("Correct! You guessed the secret number.");
-} else if (guess < secretNumber) {
-  alert("Too low! Try a higher number.");
-} else if (guess > secretNumber) {
-  alert("Too high! Try a lower number.");
-} else {
-  alert("Invalid input! Please enter a number.");
-}
+// if (guess === secretNumber) {
+//   alert("Correct! You guessed the secret number.");
+// } else if (guess < secretNumber) {
+//   alert("Too low! Try a higher number.");
+// } else if (guess > secretNumber) {
+//   alert("Too high! Try a lower number.");
+// } else {
+//   alert("Invalid input! Please enter a number.");
+// }
+
+
+
+// Mapping Numbers
+
+// const prices = [100, 200, 300, 600,777];
+// const discounted = prices.map(price => price * 0.9);
+
+// console.log(discounted); // [90, 180, 270]
+
+
+
+
+//  Mapping Strings
+
+// const names = ["Teewhy", "Divine", "Mary"];
+// const greetings = names.map(name => Hello, ${name}!);
+// console.log(greetings);
+//["Hello, Teewhy!", "Hello, Divine!", "Hello, Mary!"]
+
+
+
+// Mapping Objects
+// const users = [
+//   { name: "Teewhy", age: 25 },
+//   { name: "Divine", age: 30 }
+// ];
+
+// const userAges = users.map(user => ${user.name} is ${user.age} years old);
+
+// console.log(userAges);
+// ["Teewhy is 25 years old", "Divine is 30 years old"]
+
+
+
