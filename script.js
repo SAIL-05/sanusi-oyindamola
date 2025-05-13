@@ -51,11 +51,52 @@ console.log(200);
 //  console.log(name)
 //  alert("you can go");
 
+// to check if a number is even or odd
+
+// let shege = parseInt(prompt("Enter a number"))
+// if(shege % 2 === 0){
+//     alert("this is an even number");
+// }else{
+//     alert("This is an odd number");
+// }
+
+// to check if a number is positive or negative
+
+// let shege = parseInt(prompt("Enter a number"))
+// if(shege >= 0){
+//     alert(`${shege} is a positive number`);
+// }else if(shege < 0 ){
+// alert(`${shege} is a negative number`);
+// }else{
+//     alert("Enter a number");
+// }
+
+// to input the grades of yor students
+
+// let grade = parseInt(prompt("Enter correct score"))
+// if(grade >= 75 && grade <= 100){
+//     alert(`${grade} is Grade A`);
+// }else if(grade >=60 && grade < 75){
+//    alert(`${grade} is Grade B`);
+// }else if(grade >= 50 && grade <60 ){
+//     alert(`${grade} is Grade C`);
+// }else if(grade >=40 && grade < 50){
+//     alert(`${grade} is Grade D`);
+// }else if(grade >=30 && grade < 40){
+//     alert(`${grade} is Grade E`);
+// }else if(grade >=0 && grade < 30){
+//     alert(`${grade} is Grade F`);
+// }else{
+//     alert("incorrect number");
+// }
+
+
+
 
 // let boxOne = prompt("Enter female numbers");
 // let boxTwo = prompt("Enter male numbers");
 // let ans = boxOne + boxTwo;
-// alert(ans)
+// alert(ans);
 
 // let valueone = prompt("enter male number");
 // let valuetwo = prompt("enter female number");
@@ -121,24 +162,22 @@ console.log(200);
 // if else if conditional statement
 
 
-// const userNumber = parseInt(prompt("Enter a number")); // prompts the user to enter a number
+//  const userNumber = parseInt(prompt("Enter a number")); // prompts the user to enter a number
 
-// if (userNumber > 0) {
+// if(userNumber > 0) {
 //     alert(`${userNumber} is a positive number`);
-// }
-// else if (userNumber === 0) {
+// }else if (userNumber === 0) {
 //     alert(`${userNumber} is invalid`);
 // }
 // else if(isNaN(userNumber)) {
 //     alert("enter a number");
-// }
-
-// else if (userNumber.toString() === "NaN") {
+// }else if (userNumber.toString() === "NaN") {
 //   alert(`This is not a number`);
 // }
 // else {
 //     alert(`${userNumber} is a negative number`);
 // }
+
 //  let number = parseInt(prompt("Enter a number"))
 //  if(number > 0){
 //     alert(`${number}is a positive number`);
@@ -253,12 +292,18 @@ console.log(200);
 // good evening based on the time of the day when yourun 
 // the code.
 
-let time = prompt("Enter time in 24hrs format")
-if(time > 0.00 && time <= 12){
-    alert("Good morning amigo");
-}else if(time > 12 && time <= 16){
-    alert("Good afternoon amigo");
-}
+// let time =parseInt(prompt("Enter time in 24hrs format"))
+// if(time > 0 && time < 12){
+//     alert("Good morning amigo");
+// }else if(time >= 12 && time < 16){
+//     alert("Good afternoon amigo");
+// }else if(time >= 16 && time <= 23.59){
+//     alert("Good evening amigo");
+// }else if(isNaN(time)){
+//     alert("incorrect time");
+// }else{
+//     alert("Enter time");
+// }
 
 
 
