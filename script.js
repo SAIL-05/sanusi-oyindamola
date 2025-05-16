@@ -362,3 +362,144 @@ console.log(200);
 
 
 
+
+// string methods .... a must know
+
+// let myStr = "Hello javascript World";
+// console.log(myStr);
+// console.log(myStr.toLowerCase());
+// console.log(myStr.toUpperCase());
+// console.log(myStr.charAt());
+// console.log(myStr.indexOf("World"));
+// console.log(myStr.includes("Hello"));
+// console.log(myStr.slice(2,5));
+// console.log(myStr.trim());
+// console.log(myStr.replace("World", "idiot"));
+// console.log(myStr.split());
+// console.log(myStr.split(" ")[2]);
+// console.log(myStr.startsWith("Hello"));
+// console.log(myStr.endsWith("hi"));
+
+// console.log(myStr.trim()); // takes off un-neccessary spaces in sentences
+// console.log(myStr.replace("World", "Universe")); // replace world and input universe
+
+
+// NUMBER METHODS
+
+// let num = 42.769;
+// console.log(num);
+// console.log(num.toString());
+// console.log(num.toFixed());
+
+
+
+
+// Math Method
+
+// console.log(Math.PI);
+// console.log(Math.round(41.945));
+// console.log(Math.floor(42.342));
+// console.log(Math.ceil(42.2));
+// console.log(Math.max(12,4,3,7));
+// console.log(Math.min(12,4,6,8));
+// console.log(Math.pow(23,70));
+// console.log(Math.sqrt(144));
+// console.log(Math.random()*100);
+// console.log(Math.floor(Math.random()*100));
+
+
+
+
+
+// OBJECTS
+
+// let student = {
+//     name: "shade",
+//     age: 34,
+//     mail: "shade@gmail.com"
+// };
+//  console.log(student);
+//  console.log(student.name);
+//  console.log(Object.keys(student));
+//  console.log(Object.values(student));
+
+// FUNCTIONS
+
+// function myName(name) {
+//     console.log(name);  
+// }
+// myName("damola");
+// myName("idiot");
+// myName("money");
+
+// function addNum(a, b) {
+//     console.log(a+b);
+    
+// }
+// addNum(30,8);
+
+// function numbers() {
+//     let num1 = prompt("Enter a number");
+//     let num2 = prompt("Enter a number");
+//     let num3 = prompt("Enter a number");
+//     let num4 = prompt("Enter a number");
+//     console.log(Math.max(num1,num2,num3,num4),"is the highest number");
+// }
+// numbers()
+
+// function evenNumbers() {
+//     let solution = prompt("Enter number")
+//     if (solution % 2=== 0) {
+//         console.log(`${solution} is an even number`);
+//     }else{
+//         console.log(`${solution} is an odd number`);
+//     }
+// }
+// evenNumbers()
+
+// function name() {
+//     let grade = parseInt(prompt("Enter score"));
+//     if (grade >= 90 && grade <= 100) {
+//         console.log(`${grade} is A grade`)
+//     }else if (grade >= 75 && grade < 90) {
+//         console.log(`${grade} is B grade`);
+//     }else if (grade >= 60 && grade < 75) {
+//         console.log(`${grade} is C grade`);
+//     }else if (grade >= 50 && grade < 60) {
+//         console.log(`${grade} is D grade`);
+//     }else if (grade >= 35 && grade < 50) {
+//         console.log(`${grade} is E grade`);
+//     }else if (grade >= 0 && grade < 35) {
+//         console.log(`${grade} is F grade`);
+//     }else{
+//         console.log(`${grade} is invalid`);
+//     }
+// }
+// name()
+
+// function greaterNumber() {
+//     let firstNumber = parseInt(prompt("Enter a number"));
+//     let secondNumber = parseInt(prompt("Enter a number"));
+//     if (firstNumber > secondNumber ) {
+//         console.log(`${firstNumber}`, "firstNumber is greater");
+//     }else if (secondNumber > firstNumber) {
+//         console.log(`${secondNumber}`, "secondNumber is greater");
+//     }else{
+//         console.log("invalid");
+//     }
+// }
+// greaterNumber()
+
+// TO CHECK THE LENGTH OF A THING E.G NAME
+
+// function numberLength() {
+//     let name = prompt("Enter a Name")
+//     console.log(name.length);
+// }
+// numberLength()
+
+
+
+
+
+
