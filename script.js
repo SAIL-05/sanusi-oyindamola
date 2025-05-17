@@ -411,6 +411,10 @@ console.log(200);
 
 
 
+
+
+
+
 // OBJECTS
 
 // let student = {
@@ -497,6 +501,10 @@ console.log(200);
 //     console.log(name.length);
 // }
 // numberLength()
+
+
+
+
 
 
 
