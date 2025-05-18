@@ -451,6 +451,15 @@ console.log(200);
 // }
 // numbers()
 
+// function miniLength() {
+//     let num1 = prompt("Enter a number");
+//     let num2 = prompt("Enter a number");
+//     let num3 = prompt("enter a number");
+//     let num4 = prompt("Enter a number");
+//     console.log(Math.min(num1,num2,num3,num4),"is the smallest number");
+// }
+// miniLength()
+
 // function evenNumbers() {
 //     let solution = prompt("Enter number")
 //     if (solution % 2=== 0) {
