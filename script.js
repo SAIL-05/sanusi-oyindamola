@@ -408,6 +408,49 @@ console.log(200);
 // console.log(Math.floor(Math.random()*100));
 
 
+//   Math.PI is the ratio of the circumfrence of a circle to it's parameter
+
+// function number() {
+//     console.log(Math.PI); 
+// }number()
+
+
+// Math.round returns a supplied numeric expression rounded to the nearest
+//  integer
+
+// function round() {
+//     let cal =3.9;
+//     console.log(Math.round(cal));  // ans = 4
+// }round()
+
+
+// Math.floor returns the greatest integer less than or equal to numeric 
+//arguement
+
+// function floor() {
+//     let cal = 2.9;
+//     console.log(Math.floor(cal));  // ans = 2
+// }floor()
+
+
+
+// Math.ceil returns the smallest integer greater than or equal to it's 
+// arguement
+
+// function ceil() {
+//     let cal = 16.2;
+//     console.log(Math.ceil(cal));   // ans = 17
+// }ceil()
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -513,10 +556,111 @@ console.log(200);
 
 
 
+// LOOP
 
 
 
+// for (let number = 0; number < 11; number++) {
+//     console.log(number);
+//    console.log('this is the value of number',number);
+//   console.log('number =',number);   
+// }
 
 
+// for (let checkNumber = 0; checkNumber < 11; checkNumber++) {
+//     if (checkNumber % 2 === 0) {
+//         console.log(`${checkNumber} is an even number`);
+//     }else {
+//         console.log(`${checkNumber} is an odd number`);
+//     }
+// }
 
 
+// let lengthOfNumber = [2,3,4,5,6,];
+// let num = 1;
+// for (let number = 5; number < 20; number++) {
+//     console.log(lengthOfNumber[num]);
+//     // console.log(num);
+// }
+
+// function name() {
+//     for (let number = 0; number < 11; number++) {
+//         console.log('number =',number); 
+//     }
+// }name()
+
+// function greaterNumber() {
+//     let firstNumber = parseInt(prompt("enter a number"));
+//     let secondNumber = parseInt(prompt("enter a number"));
+//     if (firstNumber > secondNumber) {
+//         alert(`${firstNumber} firstNumber is the greatest`);
+//     }else if (secondNumber > firstNumber) {
+//         alert(`${secondNumber} secondNumber is the greatest`);
+//     }else if (firstNumber === secondNumber) {
+//         alert("both numbers are equal");
+//     }else{
+//         alert("invalid");
+//     }
+// }greaterNumber()
+
+// function greaterNumber() {
+//     for (let number = 0; number < 11; number++) {
+//         let firstNumber = parseInt(prompt("enter first number"));
+//         let secondNumber = parseInt(prompt("enter second number"));
+//         if (firstNumber > secondNumber) {
+//             alert(`${firstNumber} firstNumber is the greatest`);
+//         }else if (secondNumber > firstNumber) {
+//             alert(`${secondNumber} secondNumber is the greatest`);
+//         }else if (firstNumber == secondNumber) {
+//             alert('both numbers are equal');
+//         }else{
+//             alert('invalid');
+//         } 
+//     }
+// }greaterNumber()
+
+// function highestNumber(num1,num2,num3,num4) {
+//     num1 = 11;
+//     num2 = 2;
+//     num3 = 3;
+//     num4 = 4;
+//     console.log(Math.max(num1,num2,num3,num4),'is the highest number');
+// }highestNumber()
+
+// function highestNumber(num1,num2,num3,num4) {
+//     num1 = parseInt(prompt('enter a number'));
+//     num2 = parseInt(prompt('enter a number'));
+//     num3 = parseInt(prompt('enter a number'));
+//     num4 = parseInt(prompt('enter a number'));
+//     console.log(Math.max(num1,num2,num3,num4),'is the highest number');  
+// }highestNumber()
+
+// function lowestNumber(num1,nu2,num3,num4) {
+//     num1 = parseInt(prompt("enter a number"));
+//     num2 = parseInt(prompt("enter a number"));
+//     num3 = parseInt(prompt("enter a number"));
+//     num4 = parseInt(prompt("enter a number"));
+//     console.log(Math.min(num1,num2,num3,num4),'is the lowestNumber ');  
+// }lowestNumber()
+
+// function lowestNumber(num1,num2,num3,num4) {
+//     num1 = 1;
+//     num2 = 11;
+//     num3 = 245;
+//     num4 = 23;
+//     console.log(Math.min(num1,num2,num3,num4),'is the lowest number');
+// }lowestNumber()
+
+// for (let number = 0; number < 11; number++) {
+//     if (number % 2 === 0) {
+//         console.log(`${number} even`);
+//     }else{
+//         console.log(`${number} odd`); 
+//     }
+// }
+
+// function backWards() {
+//     let name = prompt('enter a nume')
+//     console.log(name.split('').reverse('').join(''));
+    
+// }backWards()
