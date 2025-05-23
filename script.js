@@ -675,10 +675,13 @@ console.log(200);
     
 // }backWards()
 
-function getId() {
-    console.log(document.getElementsByClassName('plan'));
+// function getId() {
+//     console.log(document.getElementsByClassName('plan'));
     
-}getId()
+// }getId()
+
+
+// DOCUMENT.GETELEMENTBYCLASSNAME
 
 // function getClass() {
     
@@ -686,12 +689,12 @@ function getId() {
 // }getClass()
 
 
-console.log(document.getElementById('moon'));
-console.log(document.getElementById('para'));
-console.log(document.getElementById('btn'));
-console.log(document.getElementsByClassName('list')[1].innerHTML='tolu');
-console.log(document.getElementsByClassName('plan')[2].innerHTML='kolo');
-console.log(document.getElementsByClassName('plan')[3].innerText='black');
+// console.log(document.getElementById('moon'));
+// console.log(document.getElementById('para'));
+// console.log(document.getElementById('btn'));
+// console.log(document.getElementsByClassName('list')[1].innerHTML='tolu');
+// console.log(document.getElementsByClassName('plan')[2].innerHTML='kolo');
+// console.log(document.getElementsByClassName('plan')[3].innerText='black');
 
 
 
