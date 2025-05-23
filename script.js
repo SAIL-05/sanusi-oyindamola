@@ -680,6 +680,11 @@ function getId() {
     
 }getId()
 
+// function getClass() {
+    
+    
+// }getClass()
+
 
 console.log(document.getElementById('moon'));
 console.log(document.getElementById('para'));
