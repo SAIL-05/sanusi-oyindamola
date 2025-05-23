@@ -1,0 +1,14 @@
+#main-body{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+}
+#moon{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+}
+#para{
+    width: 500px;
+}

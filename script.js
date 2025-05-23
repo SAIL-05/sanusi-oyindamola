@@ -443,19 +443,26 @@ console.log(200);
 // }ceil()
 
 
-// Math
+// Math.sqrt returns the square root of a number
+
+// function sqrt() {
+//     let cal = 234;
+//     console.log(Math.sqrt(cal)); //ans = 15.2970
+// }sqrt()
 
 
 
+// Math.random returns a psuedorandom number between 0 and 1
+// function random() {
+//     let cal = parseInt(prompt('enter a number'));
+//     console.log(Math.random()*20);
+// }random()
 
 
-
-
-
-
-
-
-
+// function floor() {
+//     let cal = parseInt(prompt('enter a number'));
+//     console.log(Math.floor(Math.random()*20));
+// }floor()
 
 
 
@@ -667,3 +674,20 @@ console.log(200);
 //     console.log(name.split('').reverse('').join(''));
     
 // }backWards()
+
+function getId() {
+    console.log(document.getElementsByClassName('plan'));
+    
+}getId()
+
+
+console.log(document.getElementById('moon'));
+console.log(document.getElementById('para'));
+console.log(document.getElementById('btn'));
+console.log(document.getElementsByClassName('list')[1].innerHTML='tolu');
+console.log(document.getElementsByClassName('plan')[2].innerHTML='kolo');
+console.log(document.getElementsByClassName('plan')[3].innerText='black');
+
+
+
+
