@@ -681,7 +681,7 @@ console.log(200);
 // }getId()
 
 
-// DOCUMENT.GETELEMENTBYCLASSNAME ... very neccessary to know
+// DOCUMENT.GETELEMENTBYCLASSNAME ... very neccessary to know.. very important
 
 // function getClass() {
     
