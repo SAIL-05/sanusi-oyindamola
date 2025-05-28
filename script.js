@@ -24,10 +24,10 @@ console.log(200);
 
 //  Alert
 
-//alert("correct");
+// alert("correct");
 //alert("all the best");
 //alert("welcome to my site");
-//alert("logged in successfully");
+// alert("logged in successfully");
 //alert("login denied");
 
 // Backtick
@@ -35,6 +35,10 @@ console.log(200);
 // let name = ["joy","tunde","bolu",];
 // let greetings = `welcome ${name} to the community `;
 // console.log(greetings);
+
+// let name = ["kol","love","read","jingh"]
+// console.log(`welcome ${name} `);
+
 
 // let number= "25";
 // let digit = ` ${number} `;
