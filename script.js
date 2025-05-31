@@ -700,6 +700,23 @@ console.log(200);
 // console.log(document.getElementsByClassName('plan')[2].innerHTML='kolo');
 // console.log(document.getElementsByClassName('plan')[3].innerText='black');
 
+// function addnewtext() {
+//     let a = document.getElementById('input-box');
+//    let b = document.createElement('li');
+//    b.textContent=a.value;
+//    document.getElementById('myList').appendChild(b);
+// }
+
+
+
+
+function myTodo() {   
+let a = document.getElementById('input-box'); 
+let b = document.createElement('li');
+b.textContent = a.value;
+document.getElementById('mylist').appendChild(b);
+}
+
 
 
 

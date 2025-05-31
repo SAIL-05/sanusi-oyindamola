@@ -1,4 +1,4 @@
-#main-body{
+/* #main-body{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -11,4 +11,61 @@ justify-content: center;
 }
 #para{
     width: 500px;
+} */
+/* 
+body{
+    background: black;
+  
 }
+
+#todo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+#todo-function{
+   background: white;
+   height: 70vh;
+   width: 50%;
+   padding: 10px;
+}
+
+#input-box{
+    background: yellow;
+    width: 98.7%;
+    height: 3rem;
+    margin-bottom:10px;
+    border-top: none;
+}
+
+#btn{
+    background: blue;
+    color: white;
+    padding: 15px;
+}
+#btn:hover{
+    background-color: lightblue;
+    color: red;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+ */
+
+ body{
+    background: black;
+ }
+ #todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ #todo-function{
+    background: white;
+    width: 50%;
+    height: 70vh;
+ }
